@@ -1,0 +1,19 @@
+{
+  "name": "how-to-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "app.js",
+  "repository": "git@github.com:theo-mazars/how-to-bot.git",
+  "author": "Theo Mazars <theo.mazars@epitech.eu>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "discord.js": "^12.3.1",
+    "dotenv": "^8.2.0",
+    "fs": "^0.0.1-security",
+    "nodemon": "^2.0.5"
+  }
+}
